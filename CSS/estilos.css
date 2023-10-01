@@ -1,0 +1,279 @@
+/* fuentes */
+@font-face {
+    font-family: 'Skranji-regular';
+    src: url('../Assets/fonts/Skranji-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../Assets/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'VarelaRound-Regular';
+    src: url('../Assets/fonts/VarelaRound-Regular.ttf');
+}
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #9E503F;
+    color: beige;
+
+    .contenedorLogo {
+        width: 15%;
+        padding: 20px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .nombreSitio {
+        font-family: 'Skranji-regular';
+        width: 37%;
+        display: inline-block;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .navegacion {
+        width: 47%;
+        display: inline-block;
+        text-align: left;
+        font-family: 'OpenSans-Regular';
+
+        .listanav {
+            list-style: none;
+            text-align: right;
+
+            .itemnav {
+                display: inline-block;
+
+                .linknav {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: beige;
+                    font-size: 2rem;
+                    margin-right: 30px;
+                    margin-bottom: 20px;
+                    border: 1px solid white;
+                }
+            }
+        }
+    }
+}
+
+.fontOpenSans {
+    font-family: 'OpenSans-regular';
+}
+
+.fontVarela {
+    font-family: 'VarelaRound-Regular';
+}
+
+.fontSkranji {
+    font-family: 'Skranji-regular';
+}
+
+.main {
+    background-color: beige;
+    font-family: 'VarelaRound-Regular';
+
+    .subtitulo {
+        font-family: 'OpenSans-regular';
+        font-size: 2.5rem;
+    }
+
+    .imgInterior {
+        width: 100%;
+    }
+
+    .bloqueTextoFrontpage {
+
+        display: inline-block;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        width: 40%;
+        padding-left: 20px;
+
+        .subtitulo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .textoFrontpage {
+            text-align: justify;
+        }
+    }
+
+    .mapaFrontpage {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+        width: 55%;
+
+        .direccionMapa {
+            text-align: center;
+        }
+    }
+
+    .segmentoMenu {
+        .subtituloMenu {
+            font-family: 'OpenSans-regular';
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .imagenProducto {
+            width: 350px;
+            border-radius: 50px;
+
+
+        }
+    }
+
+    .portadaCampaña {
+        width: 30%;
+    }
+
+    /* Agregar Sombra al boton cuando use flexbox */
+    .botonInscripcion {
+        font-family: 'Skranji-regular';
+        font-size: 2rem;
+
+        .linkInscripcion {
+            text-decoration: none;
+            color: #9E503F;
+            border: 1px solid #9E503F;
+        }
+    }
+
+    .subtituloyBanner {
+        display: inline-block;
+        width: 100%;
+        height: 400px;
+        background-image: url(../Assets/img/Taberna.jpeg);
+        /*redimensionar imagen para que abarque solo el fondo del banner y no quede cortada*/
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .subtituloNosotros {
+            margin-top: 100px;
+            text-align: center;
+            color: beige;
+            font-size: 3rem;
+        }
+    }
+
+    .seccionNosotros {
+        display: inline-block;
+
+        .contenedorHistoria {
+            display: inline-block;
+            width: 55%;
+
+            .encabezadoNosotros {
+                font-size: 2rem;
+                text-align: center;
+                font-family: 'OpenSans-regular'
+                    color=#9E503F;
+            }
+
+            .subtituloHistoria {
+                font-family: 'OpenSans-regular';
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            .historia {
+                text-align: justify;
+            }
+
+        }
+
+        .contenedorVideo {
+            display: inline-block;
+            width: 40%;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+
+    .seccionReserva {
+        padding-top: 40px;
+        padding-left: 40px;
+        margin-bottom: 100px;
+        .contenedorReserva {
+            display: inline-block;
+            width: 30%;
+            .subtituloReserva{
+                font-family:'VarelaRound-Regular' ;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            .textoReserva{
+                text-align: justify;
+            }
+        }
+        .formulario{
+            text-align: left;
+            padding-left: 50px;
+            display: inline-block;
+            width: 40%;
+        }
+    }
+    .seccionTrabajo{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 50px;
+        .subtituloTrabajo{
+            font-family:'VarelaRound-Regular' ;
+                font-size: 1.5rem;
+                text-align: center;
+        }
+        .textoTrabajo{
+            text-align: justify;
+        }
+    }
+
+}
+
+.footer {
+    background-color: #9E503F;
+    color: beige;
+    font-family: 'VarelaRound-Regular';
+
+    .footerHorarios {
+        margin-left: 20px;
+        text-align: left;
+        display: inline-block;
+        width: 45%;
+    }
+
+    .footerRedes {
+        margin-right: 30px;
+        text-align: right;
+        display: inline-block;
+        width: 45%;
+
+        .contenedorRedes {
+            margin-right: 60px;
+
+            .logoRedes {
+                width: 30px;
+            }
+        }
+    }
+
+    .footerCopyright {
+        margin-bottom: 20px;
+        text-align: center;
+        background-color: blueviolet;
+    }
+}
