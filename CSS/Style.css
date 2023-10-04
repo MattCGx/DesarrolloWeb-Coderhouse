@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Skranji-regular';
+    src: url('../Assets/fonts/Skranji-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'gudea-regular';
+    src: url('../Assets/fonts/Gudea-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'VarelaRound-Regular';
+    src: url('../Assets/fonts/VarelaRound-Regular.ttf');
+}
+
+
+body {
+
+    font-family: 'VarelaRound-Regular';
+    color: #000000;
+}
+
+/*header */
+
+.header {
+    background-color: #9E503F;
+
+    .gudeaNav {
+        font-family: 'gudea-regular', Courier, monospace;
+        font-size: 1.5rem;
+    }
+    .logo{
+     
+        max-width: 230px;
+        align-items: center;
+        padding-bottom: 40px;
+        padding-top: 0px;
+    }
+
+    .navbar-nav .nav-link {
+        color: #b86350;
+        padding: 5px 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;       
+
+    }
+
+    .navbar-nav .nav-item .nav-link.active {
+        color: #833321;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .navbar-nav .nav-link {
+        padding: 10px 20px;
+        background-color: #5c5b5b81;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .navbar-nav .nav-link.active {
+        background-color: #7e7a7a71
+    }
+
+    .gudeaNav {
+        font-size: 2rem;
+    }
+
+
+}
+
+
+
+
+/* Main */
+main {
+    background-color: beige;
+
+    .imgInterior {
+        max-width: 100%;
+        height: auto;
+    }
+}
