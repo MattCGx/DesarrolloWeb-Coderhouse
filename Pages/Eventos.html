@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Taverna y TTRPG | Bree's</title>
   <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
-  <link rel="stylesheet" href="../CSS/style.css" />
+  <link rel="stylesheet" href="../CSS/styles.css" />
   <link rel="icon" type="image/png" href="../favicon.ico"/>
 </head>
 
@@ -89,27 +89,30 @@
 
   </main>
 
-  <footer class="footer">
-    <section class="footerHorarios">
-      <h3>Horario de Atencion</h3>
-      <p>Lunes a Viernes 9:00 a 21:00</p>
-      <p>Sabados de 19:00 a 04:00</p>
-    </section>
-    <section class="footerRedes">
+  <footer class="footer container-fluid pt-2">
+    <div class="row">
 
-      <h3>Seguinos tambien en</h3>
+      <section class="footerHorarios text-left col-6">
+        <h3>HORARIO DE ATENCION
+        </h3>
+        <p>Lunes a Viernes 9:00 a 21:00</p>
+        <p>Sabados de 19:00 a 04:00</p>
+      </section>
 
-      <div class="contenedorRedes">
-      <a href="https://www.facebook.com" target="_blank"><img class="logoRedes" src="../Assets/icons/facebook.png"
-          alt="logo facebook"></a>
-      <a href="https://www.instagram.com" target="_blank"><img class="logoRedes" src="../Assets/icons/instagram.png"
-          alt="logo Instagram"></a>
-      </div>
-    </section>
-    <section class="footerCopyright">
+      <section class="footerRedes me-2 text-center col-5">
+        <h3>SEGUINOS TAMBIEN EN</h3>
 
+        <div class="contenedorRedes d-flex justify-content-center me-auto">
+          <a  href="https://www.facebook.com" target="_blank"><img class="logoRedes" src="../Assets/icons/facebook.svg"
+              alt="logo facebook" /></a>
+          <a  href="https://www.instagram.com" target="_blank"><img class="logoRedes" src="../Assets/icons/instagram.svg"
+              alt="logo Instagram" /></a>
+        </div>
+      </section>
+    </div>
+
+    <section class="footerCopyright text-center row">
       <p>Copyright © 2023 LA Taberna de Bree - Design by MCGX</p>
-
     </section>
   </footer>
   <script src="../JS/bootstrap.bundle.min.js"></script>
