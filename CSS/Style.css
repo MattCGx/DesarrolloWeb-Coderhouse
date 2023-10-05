@@ -53,13 +53,12 @@ body {
 
         .navbar-toggler-icon {
             background-image: url('../Assets/icons/d20.png');
-            background-size: contain; 
+            background-size: contain;
             background-repeat: no-repeat;
-            width: 40px; 
-            height: 40px; 
+            width: 40px;
+            height: 40px;
             filter: invert(100%)
-            
-          }
+        }
 
         .navbar-nav .nav-link {
             color: #beada3;
@@ -83,29 +82,34 @@ body {
         background-color: #d09b71;
         font-family: 'gudea-regular', Courier, monospace;
 
-        .imgInterior {
-            max-width: 100%;
-            height: auto;
-        }
     }
 
 
     .footer {
-        background-color: #212121;;
+        background-color: #212121;
+        ;
         color: beige;
         font-family: 'gudea-regular', Courier, monospace;
 
         .footerRedes {
-            margin-right: 30px;    
             .contenedorRedes {
-                margin-right: 60px;    
                 .logoRedes {
-                    width: 30px;
+                    width: 40px;
                 }
             }
         }
 
-    }
+        /*  .footerHorarios {
+
+          background-color: red; 
+        }*/
+
+
+        /* .footerCopyright {
+            background-color: blueviolet; 
+
+    }*/
+}
 
 
 }
@@ -129,6 +133,11 @@ body {
 
     .gudeaNav {
         font-size: 2rem;
+    }
+
+
+    .footer .footerRedes .contenedorRedes .logoRedes {
+        width: 120px;
     }
 
 
