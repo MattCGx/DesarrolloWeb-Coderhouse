@@ -37,6 +37,9 @@ body {
 
     .header {
         background-color: #212121;
+        border-bottom: 2px solid #d09b71;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
 
         .gudeaNav {
             font-family: 'gudea-regular', Courier, monospace;
@@ -105,11 +108,12 @@ body {
         }*/
 
 
-        /* .footerCopyright {
-            background-color: blueviolet; 
+        .footerCopyright {
+            border-top: 2px solid #d09b71;
+            border-radius: 7px;
 
-    }*/
-}
+        }
+    }
 
 
 }
@@ -135,9 +139,25 @@ body {
         font-size: 2rem;
     }
 
+    .main {
 
-    .footer .footerRedes .contenedorRedes .logoRedes {
-        width: 120px;
+    .mapaGoogle{
+        width: 400px; 
+        height: 300px;
+    }
+
+    }
+
+    .footer .footerRedes {
+
+        .contenedorRedes {
+            display: flex;
+            flex-direction: row;
+
+            .logoRedes {
+                width: 50px;
+            }
+        }
     }
 
 
