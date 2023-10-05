@@ -33,7 +33,7 @@ body {
         }
     }
 
-    /*header */
+
 
     .header {
         background-color: #212121;
@@ -80,18 +80,50 @@ body {
     }
 
 
-    /* Main */
+
     .main {
+
+
         background-color: #d09b71;
         font-family: 'gudea-regular', Courier, monospace;
+
+        /* Main index */
 
         .bloqueTextoFrontpage {
             background-color: #2121214d;
         }
-        .mapaGoogle{
+
+        .mapaGoogle {
             flex-wrap: wrap;
+            width: 100%;
+            height: 70%;
         }
+
+        /*main menu*/
+
+        .imagenProducto {
+            width: 200px;
+        }
+
+        /*main eventos*/
+
+        .card {
+            background-color: #212121ad;
+
+            .btn-secondary {
+                background-color: #beada3;
+
+                .botonInsc {
+                    text-decoration: none;
+                    color: #000000;
+                }
+            }
+        }
+
     }
+
+
+
 
 
     .footer {
@@ -150,14 +182,14 @@ body {
             font-size: 2rem;
         }
 
-        .main {
+        /* .main {
 
             .mapaGoogle {
-                width: 400px;
+                width: 600px;
                 height: 300px;
             }
 
-        }
+        } */
 
         .footer {
             .footerRedes {
