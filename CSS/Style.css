@@ -16,41 +16,100 @@
 
 body {
 
-    font-family: 'VarelaRound-Regular';
+    font-family: 'gudea-regular';
     color: #000000;
-}
 
-/*header */
 
-.header {
-    background-color: #9E503F;
 
-    .gudeaNav {
+    .sectionLogoWhatsapp {
+        display: flex;
+        justify-content: flex-end;
+
+        .logoWhatsapp {
+            width: 90px;
+            background-color: #5c5b5b81;
+            padding: 9px;
+            border-radius: 18px;
+        }
+    }
+
+    /*header */
+
+    .header {
+        background-color: #212121;
+
+        .gudeaNav {
+            font-family: 'gudea-regular', Courier, monospace;
+            font-size: 1.5rem;
+        }
+
+        .logo {
+
+            max-width: 200px;
+            align-items: center;
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url('../Assets/icons/d20.png');
+            background-size: contain; 
+            background-repeat: no-repeat;
+            width: 40px; 
+            height: 40px; 
+            filter: invert(100%)
+            
+          }
+
+        .navbar-nav .nav-link {
+            color: #beada3;
+            padding: 5px 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+
+        }
+
+        .navbar-nav .nav-item .nav-link.active {
+            /* color: #833321; */
+            color: #d09b71;
+        }
+
+    }
+
+
+    /* Main */
+    .main {
+        background-color: #d09b71;
         font-family: 'gudea-regular', Courier, monospace;
-        font-size: 1.5rem;
-    }
-    .logo{
-     
-        max-width: 230px;
-        align-items: center;
-        padding-bottom: 40px;
-        padding-top: 0px;
+
+        .imgInterior {
+            max-width: 100%;
+            height: auto;
+        }
     }
 
-    .navbar-nav .nav-link {
-        color: #b86350;
-        padding: 5px 5px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        border-radius: 5px;       
+
+    .footer {
+        background-color: #212121;;
+        color: beige;
+        font-family: 'gudea-regular', Courier, monospace;
+
+        .footerRedes {
+            margin-right: 30px;    
+            .contenedorRedes {
+                margin-right: 60px;    
+                .logoRedes {
+                    width: 30px;
+                }
+            }
+        }
 
     }
 
-    .navbar-nav .nav-item .nav-link.active {
-        color: #833321;
-    }
 
 }
+
 
 
 @media screen and (min-width: 992px) {
@@ -73,17 +132,4 @@ body {
     }
 
 
-}
-
-
-
-
-/* Main */
-main {
-    background-color: beige;
-
-    .imgInterior {
-        max-width: 100%;
-        height: auto;
-    }
 }
