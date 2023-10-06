@@ -15,7 +15,7 @@
 
 
 body {
-
+    background-color: #d09b71;
     font-family: 'gudea-regular';
     color: #000000;
 
@@ -109,7 +109,6 @@ body {
 
         .card {
             background-color: #212121ad;
-
             .btn-secondary {
                 background-color: #beada3;
 
@@ -118,6 +117,23 @@ body {
                     color: #000000;
                 }
             }
+        }
+
+        /* main contacto*/
+
+        .formularioContacto {
+            background-color: #212121ad;
+            border-radius: 5px;
+        }
+
+        .seccionTrabajo {
+            border-top: 2px solid #212121;
+        }
+
+        /*main nosotros*/
+
+        .subtituloyBanner {
+            background-color: #212121ad;
         }
 
     }
@@ -140,18 +156,13 @@ body {
             }
         }
 
-        /*  .footerHorarios {
-
-          background-color: red; 
-        }*/
-
-
         .footerCopyright {
             border-top: 2px solid #d09b71;
             border-radius: 7px;
 
         }
     }
+
 
 
 
@@ -182,14 +193,6 @@ body {
             font-size: 2rem;
         }
 
-        /* .main {
-
-            .mapaGoogle {
-                width: 600px;
-                height: 300px;
-            }
-
-        } */
 
         .footer {
             .footerRedes {
