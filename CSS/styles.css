@@ -1,218 +1,155 @@
-
-
-@font-face {
-    font-family: 'gudea-regular';
-    src: url('../Assets/fonts/Gudea-Regular.ttf');
+body .header {
+  background-color: #212121;
+  border-bottom: 2px solid #d09b71;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+body .header .gudeaNav {
+  font-family: "gudea-regular", Courier, monospace;
+  font-size: 1.5rem;
+}
+body .header .logo {
+  max-width: 150px;
+  align-items: center;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+body .header .navbar-toggler-icon {
+  background-image: url("../Assets/icons/d20.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  filter: invert(100%);
+}
+body .header .navbar-nav .nav-link {
+  color: #beada3;
+  padding: 5px 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+body .header .navbar-nav .nav-item .nav-link.active {
+  /* color: #833321; */
+  color: #d09b71;
+}
+@media screen and (min-width: 768px) {
+  body .gudeaNav {
+    font-size: 2rem;
+  }
+  body .gudeaNav .logo {
+    max-width: 200px;
+  }
+  body .gudeaNav .navbar-nav .nav-link {
+    padding: 10px 20px;
+    background-color: rgba(92, 91, 91, 0.5058823529);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  body .gudeaNav .navbar-nav .nav-link .active {
+    background-color: rgba(126, 122, 122, 0.4431372549);
+  }
 }
 
-@font-face {
-    font-family: 'VarelaRound-Regular';
-    src: url('../Assets/fonts/VarelaRound-Regular.ttf');
+body .footer {
+  background-color: #212121;
+  color: beige;
+  font-family: "gudea-regular", Courier, monospace;
+}
+body .footer .footerRedes .contenedorRedes .logoRedes {
+  width: 40px;
+}
+body .footer .footerCopyright {
+  border-top: 2px solid #d09b71;
+  border-radius: 7px;
+}
+@media screen and (min-width: 768px) {
+  body .footer .footerRedes .contenedorRedes {
+    display: flex;
+    flex-direction: row;
+  }
+  body .footer .footerRedes .contenedorRedes .logoRedes {
+    width: 50px;
+  }
+}
+
+body .main .bloqueTextoFrontpage {
+  background-color: rgba(33, 33, 33, 0.3019607843);
+}
+body .main .mapaGoogle {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70%;
+}
+
+body .main .seccionMenu .tituloMenu {
+  background-color: rgba(33, 33, 33, 0.6784313725);
+}
+body .main .seccionMenu .card-group .card {
+  border-radius: 25px;
+}
+body .main .seccionMenu .card-group .card .card-img-top {
+  border-radius: 25px;
+}
+
+body .main .card {
+  background-color: rgba(33, 33, 33, 0.6784313725);
+}
+body .main .card .btn-secondary {
+  background-color: #beada3;
+}
+body .main .card .btn-secondary .botonInsc {
+  text-decoration: none;
+  color: #000000;
+}
+
+body .main .subtituloyBanner {
+  background-color: rgba(33, 33, 33, 0.6784313725);
+}
+
+body .main .formularioContacto {
+  background-color: rgba(33, 33, 33, 0.6784313725);
+  border-radius: 5px;
+}
+body .main .seccionTrabajo {
+  border-top: 2px solid #212121;
+}
+
+body .sectionLogoWhatsapp {
+  display: flex;
+  justify-content: flex-end;
+}
+body .sectionLogoWhatsapp .logoWhatsapp {
+  width: 90px;
+  background-color: rgba(92, 91, 91, 0.5058823529);
+  padding: 9px;
+  border-radius: 18px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "gudea-regular";
+  src: url("../Assets/fonts/Gudea-Regular.ttf");
+}
+@font-face {
+  font-family: "VarelaRound-Regular";
+  src: url("../Assets/fonts/VarelaRound-Regular.ttf");
+}
 body {
-    background-color: #d09b71;
-    font-family: 'gudea-regular';
-    color: #000000;
-
-
-
-    .sectionLogoWhatsapp {
-        display: flex;
-        justify-content: flex-end;
-
-        .logoWhatsapp {
-            width: 90px;
-            background-color: #5c5b5b81;
-            padding: 9px;
-            border-radius: 18px;
-        }
-    }
-
-
-
-    .header {
-        background-color: #212121;
-        border-bottom: 2px solid #d09b71;
-        border-bottom-right-radius: 7px;
-        border-bottom-left-radius: 7px;
-
-        .gudeaNav {
-            font-family: 'gudea-regular', Courier, monospace;
-            font-size: 1.5rem;
-        }
-
-        .logo {
-
-            max-width: 200px;
-            align-items: center;
-            padding-bottom: 0px;
-            padding-top: 0px;
-        }
-
-        .navbar-toggler-icon {
-            background-image: url('../Assets/icons/d20.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 40px;
-            height: 40px;
-            filter: invert(100%)
-        }
-
-        .navbar-nav {
-            .nav-link {
-                color: #beada3;
-                padding: 5px 5px;
-                margin-top: 5px;
-                margin-bottom: 5px;
-                border-radius: 5px;
-            }
-        }
-
-        .navbar-nav {
-            .nav-item {
-                .nav-link.active {
-                    /* color: #833321; */
-                    color: #d09b71;
-                }
-            }
-        }
-    }
-
-
-
-    .main {
-
-
-        background-color: #d09b71;
-        font-family: 'gudea-regular', Courier, monospace;
-
-        /* Main index */
-
-        .bloqueTextoFrontpage {
-            background-color: #2121214d;
-        }
-
-        .mapaGoogle {
-            flex-wrap: wrap;
-            width: 100%;
-            height: 70%;
-        }
-
-        /*main menu*/
-
-        .imagenProducto {
-            width: 200px;
-        }
-
-        /*main eventos*/
-
-        .card {
-            background-color: #212121ad;
-
-            .btn-secondary {
-                background-color: #beada3;
-
-                .botonInsc {
-                    text-decoration: none;
-                    color: #000000;
-                }
-            }
-        }
-
-        /* main contacto*/
-
-        .formularioContacto {
-            background-color: #212121ad;
-            border-radius: 5px;
-        }
-
-        .seccionTrabajo {
-            border-top: 2px solid #212121;
-        }
-
-        /*main nosotros*/
-
-        .subtituloyBanner {
-            background-color: #212121ad;
-        }
-
-    }
-
-
-
-
-
-    .footer {
-        background-color: #212121;
-        ;
-        color: beige;
-        font-family: 'gudea-regular', Courier, monospace;
-
-        .footerRedes {
-            .contenedorRedes {
-                .logoRedes {
-                    width: 40px;
-                }
-            }
-        }
-
-        .footerCopyright {
-            border-top: 2px solid #d09b71;
-            border-radius: 7px;
-
-        }
-    }
-
-
-
-
-
-
-
-    @media screen and (min-width: 992px) {
-
-
-        .navbar-nav {
-            .nav-link {
-                padding: 10px 20px;
-                background-color: #5c5b5b81;
-                border-radius: 5px;
-                margin-right: 10px;
-                margin-top: 0px;
-                margin-bottom: 0px;
-            }
-        }
-
-        .navbar-nav {
-            .nav-link.active {
-                background-color: #7e7a7a71
-            }
-        }
-
-        .gudeaNav {
-            font-size: 2rem;
-        }
-
-
-        .footer {
-            .footerRedes {
-                .contenedorRedes {
-                    display: flex;
-                    flex-direction: row;
-
-                    .logoRedes {
-                        width: 50px;
-                    }
-                }
-            }
-        }
-
-    }
+  background-color: #d09b71;
+  font-family: "gudea-regular";
+  color: #000000;
 }
+body .main {
+  background-color: #d09b71;
+  font-family: "gudea-regular", Courier, monospace;
+}
+
+/*# sourceMappingURL=styles.css.map */

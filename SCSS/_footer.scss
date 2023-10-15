@@ -1,0 +1,41 @@
+body {
+    .footer {
+        background-color: #212121;
+        ;
+        color: beige;
+        font-family: 'gudea-regular', Courier, monospace;
+
+        .footerRedes {
+            .contenedorRedes {
+                .logoRedes {
+                    width: 40px;
+                }
+            }
+        }
+
+        .footerCopyright {
+            border-top: 2px solid #d09b71;
+            border-radius: 7px;
+
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+
+
+        .footer {
+            .footerRedes {
+                .contenedorRedes {
+                    display: flex;
+                    flex-direction: row;
+
+                    .logoRedes {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

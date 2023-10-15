@@ -1,0 +1,14 @@
+body{
+
+    .sectionLogoWhatsapp {
+        display: flex;
+        justify-content: flex-end;
+
+        .logoWhatsapp {
+            width: 90px;
+            background-color: #5c5b5b81;
+            padding: 9px;
+            border-radius: 18px;
+        }
+    }
+}
