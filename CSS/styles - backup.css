@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'Skranji-regular';
+    src: url('../Assets/fonts/Skranji-Regular.ttf');
+}
 
 @font-face {
     font-family: 'gudea-regular';
@@ -60,24 +63,20 @@ body {
             filter: invert(100%)
         }
 
-        .navbar-nav {
-            .nav-link {
-                color: #beada3;
-                padding: 5px 5px;
-                margin-top: 5px;
-                margin-bottom: 5px;
-                border-radius: 5px;
-            }
+        .navbar-nav .nav-link {
+            color: #beada3;
+            padding: 5px 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+
         }
 
-        .navbar-nav {
-            .nav-item {
-                .nav-link.active {
-                    /* color: #833321; */
-                    color: #d09b71;
-                }
-            }
+        .navbar-nav .nav-item .nav-link.active {
+            /* color: #833321; */
+            color: #d09b71;
         }
+
     }
 
 
@@ -110,7 +109,6 @@ body {
 
         .card {
             background-color: #212121ad;
-
             .btn-secondary {
                 background-color: #beada3;
 
