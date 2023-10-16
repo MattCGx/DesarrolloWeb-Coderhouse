@@ -1,6 +1,6 @@
 body {
     .footer {
-        background-color: #212121;
+        background-color: $color-gris-oscuro;
         ;
         color: beige;
         font-family: 'gudea-regular', Courier, monospace;
@@ -14,7 +14,7 @@ body {
         }
 
         .footerCopyright {
-            border-top: 2px solid #d09b71;
+            border-top: 2px solid $color-principal-body;
             border-radius: 7px;
 
         }

@@ -1,12 +1,12 @@
 body{
 .main{
     .formularioContacto {
-        background-color: #212121ad;
+        background-color: $color-negro-alpha2;
         border-radius: 5px;
     }
 
     .seccionTrabajo {
-        border-top: 2px solid #212121;
+        border-top: 2px solid $color-gris-oscuro;
     }
 }
 

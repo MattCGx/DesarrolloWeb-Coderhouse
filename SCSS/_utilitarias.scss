@@ -1,27 +1,31 @@
+
+/* Resets*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/*fonts*/
 @font-face {
     font-family: 'gudea-regular';
     src: url('../Assets/fonts/Gudea-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'VarelaRound-Regular';
-    src: url('../Assets/fonts/VarelaRound-Regular.ttf');
+    font-family: 'montserrat';
+    src: url('../Assets/fonts/Montserrat-VariableFont_wght.ttf');
 }
 
+
+/*Generalidades Body*/
 body {
-    background-color: #d09b71;
+    background-color: $color-principal-body;
     font-family: 'gudea-regular';
-    color: #000000;
+    color: $color-texto;
     .main {
-        background-color: #d09b71;
+        background-color: $color-principal-body;
         font-family: 'gudea-regular', Courier, monospace;
     }
-
-
 }

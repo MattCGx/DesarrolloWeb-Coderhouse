@@ -2,14 +2,14 @@ body {
 
     .main {
         .card {
-            background-color: #212121ad;
+            background-color: $color-negro-alpha2;
 
             .btn-secondary {
-                background-color: #beada3;
+                background-color: $color-font-nav;
 
                 .botonInsc {
                     text-decoration: none;
-                    color: #000000;
+                    color: $color-gris-oscuro;
                 }
             }
         }

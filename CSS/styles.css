@@ -1,17 +1,20 @@
+/* Resets*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*fonts*/
 @font-face {
   font-family: "gudea-regular";
   src: url("../Assets/fonts/Gudea-Regular.ttf");
 }
 @font-face {
-  font-family: "VarelaRound-Regular";
-  src: url("../Assets/fonts/VarelaRound-Regular.ttf");
+  font-family: "montserrat";
+  src: url("../Assets/fonts/Montserrat-VariableFont_wght.ttf");
 }
+/*Generalidades Body*/
 body {
   background-color: #d09b71;
   font-family: "gudea-regular";
@@ -32,13 +35,13 @@ body .header .gudeaNav {
   font-family: "gudea-regular", Courier, monospace;
   font-size: 1.5rem;
 }
-body .header .logo {
+body .header .gudeaNav .logo {
   max-width: 150px;
   align-items: center;
   padding-bottom: 0px;
   padding-top: 0px;
 }
-body .header .navbar-toggler-icon {
+body .header .gudeaNav .navbar-toggler-icon {
   background-image: url("../Assets/icons/d20.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -46,14 +49,14 @@ body .header .navbar-toggler-icon {
   height: 40px;
   filter: invert(100%);
 }
-body .header .navbar-nav .nav-link {
+body .header .gudeaNav .navbar-nav .nav-item .nav-link {
   color: #beada3;
   padding: 5px 5px;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
 }
-body .header .navbar-nav .nav-item .nav-link.active {
+body .header .gudeaNav .navbar-nav .nav-item .active {
   /* color: #833321; */
   color: #d09b71;
 }
@@ -72,7 +75,7 @@ body .header .navbar-nav .nav-item .nav-link.active {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  body .gudeaNav .navbar-nav .nav-link .active {
+  body .gudeaNav .navbar-nav .active {
     background-color: rgba(126, 122, 122, 0.4431372549);
   }
 }
@@ -126,7 +129,7 @@ body .main .card .btn-secondary {
 }
 body .main .card .btn-secondary .botonInsc {
   text-decoration: none;
-  color: #000000;
+  color: #212121;
 }
 
 body .main .subtituloyBanner {

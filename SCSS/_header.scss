@@ -1,47 +1,46 @@
 body {
     .header {
-        background-color: #212121;
-        border-bottom: 2px solid #d09b71;
+        background-color: $color-gris-oscuro;
+        border-bottom: 2px solid $color-principal-body;
         border-bottom-right-radius: 7px;
         border-bottom-left-radius: 7px;
 
         .gudeaNav {
             font-family: 'gudea-regular', Courier, monospace;
             font-size: 1.5rem;
-        }
 
-        .logo {
 
-            max-width: 150px;
-            align-items: center;
-            padding-bottom: 0px;
-            padding-top: 0px;
-        }
+            .logo {
 
-        .navbar-toggler-icon {
-            background-image: url('../Assets/icons/d20.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 40px;
-            height: 40px;
-            filter: invert(100%)
-        }
-
-        .navbar-nav {
-            .nav-link {
-                color: #beada3;
-                padding: 5px 5px;
-                margin-top: 5px;
-                margin-bottom: 5px;
-                border-radius: 5px;
+                max-width: 150px;
+                align-items: center;
+                padding-bottom: 0px;
+                padding-top: 0px;
             }
-        }
 
-        .navbar-nav {
-            .nav-item {
-                .nav-link.active {
-                    /* color: #833321; */
-                    color: #d09b71;
+            .navbar-toggler-icon {
+                background-image: url('../Assets/icons/d20.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 40px;
+                filter: invert(100%)
+            }
+
+
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        color: $color-font-nav;
+                        padding: 5px 5px;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                        border-radius: 5px;
+                    }
+                    .active {
+                        /* color: #833321; */
+                        color: $color-principal-body;
+                    }
                 }
             }
         }
@@ -49,7 +48,7 @@ body {
 
     @media screen and (min-width: 768px) {
 
-        
+
 
         .gudeaNav {
             font-size: 2rem;
@@ -62,15 +61,14 @@ body {
             .navbar-nav {
                 .nav-link {
                     padding: 10px 20px;
-                    background-color: #5c5b5b81;
+                    background-color: $color-fondo-gris;
                     border-radius: 5px;
                     margin-right: 10px;
                     margin-top: 0px;
                     margin-bottom: 0px;
-
-                    .active {
-                        background-color: #7e7a7a71
-                    }
+                }
+                .active {
+                    background-color: $color-nav-active;
                 }
             }
         }
