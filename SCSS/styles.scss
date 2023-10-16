@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import "utilitarias.scss";
 @import "header.scss";
 @import "footer.scss";
 @import "mainIndex.scss";
@@ -7,31 +8,3 @@
 @import "mainNosotros.scss";
 @import "mainContacto.scss";
 @import "logoWhatsapp.scss";
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: 'gudea-regular';
-    src: url('../Assets/fonts/Gudea-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'VarelaRound-Regular';
-    src: url('../Assets/fonts/VarelaRound-Regular.ttf');
-}
-
-body {
-    background-color: #d09b71;
-    font-family: 'gudea-regular';
-    color: #000000;
-    .main {
-        background-color: #d09b71;
-        font-family: 'gudea-regular', Courier, monospace;
-    }
-
-
-}

@@ -1,3 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "gudea-regular";
+  src: url("../Assets/fonts/Gudea-Regular.ttf");
+}
+@font-face {
+  font-family: "VarelaRound-Regular";
+  src: url("../Assets/fonts/VarelaRound-Regular.ttf");
+}
+body {
+  background-color: #d09b71;
+  font-family: "gudea-regular";
+  color: #000000;
+}
+body .main {
+  background-color: #d09b71;
+  font-family: "gudea-regular", Courier, monospace;
+}
+
 body .header {
   background-color: #212121;
   border-bottom: 2px solid #d09b71;
@@ -126,30 +150,6 @@ body .sectionLogoWhatsapp .logoWhatsapp {
   background-color: rgba(92, 91, 91, 0.5058823529);
   padding: 9px;
   border-radius: 18px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "gudea-regular";
-  src: url("../Assets/fonts/Gudea-Regular.ttf");
-}
-@font-face {
-  font-family: "VarelaRound-Regular";
-  src: url("../Assets/fonts/VarelaRound-Regular.ttf");
-}
-body {
-  background-color: #d09b71;
-  font-family: "gudea-regular";
-  color: #000000;
-}
-body .main {
-  background-color: #d09b71;
-  font-family: "gudea-regular", Courier, monospace;
 }
 
 /*# sourceMappingURL=styles.css.map */
