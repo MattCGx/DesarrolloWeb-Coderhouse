@@ -2,7 +2,7 @@ body {
 
     .main{
         .bloqueTextoFrontpage {
-            background-color: $color-negro-alpha;
+            background-color: map-get($map: $mapa-colores, $key: color-negro-alpha);
         }
 
         .mapaGoogle {

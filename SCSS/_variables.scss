@@ -1,9 +1,20 @@
-$color-gris-oscuro: #212121;
-$color-negro-alpha: #2121214d;
-$color-negro-alpha2: #212121ad;
-$color-fondo-gris: #5c5b5b81;
-$color-nav-active: #7e7a7a71;
-$color-texto: #000000;
-$color-principal-body: #d09b71;
-$color-font-nav: #beada3;
+/* Fonts*/
+
+$font-principal: 'gudea-regular';
+$font-titulos: 'montserrat';
+
+
+/*colores*/
+
+
+$mapa-colores: (
+    color-gris-oscuro: #212121,
+    color-negro-alpha: #2121214d,
+    color-negro-alpha2: #212121ad,
+    color-fondo-gris: #5c5b5b81,
+    color-nav-active: #7e7a7a71,
+    color-texto: #000000,
+    color-principal-body: #d09b71,
+    color-font-nav: #beada3,
+);
 

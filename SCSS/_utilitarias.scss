@@ -21,11 +21,14 @@
 
 /*Generalidades Body*/
 body {
-    background-color: $color-principal-body;
-    font-family: 'gudea-regular';
-    color: $color-texto;
+    background-color: map-get($map: $mapa-colores, $key: color-principal-body);
+    font-family: $font-principal;
+    color: map-get($map: $mapa-colores, $key: color-texto);
     .main {
-        background-color: $color-principal-body;
-        font-family: 'gudea-regular', Courier, monospace;
+        background-color: map-get($map: $mapa-colores, $key: color-principal-body);
+        font-family: $font-principal , Courier, monospace;
+        .fontTitulo {
+            font-family: $font-titulos;
+        }
     }
 }

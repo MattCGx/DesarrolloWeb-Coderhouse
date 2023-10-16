@@ -1,7 +1,7 @@
 body{
     .main{
                 .subtituloyBanner {
-                    background-color: $color-negro-alpha2;
+                    background-color: map-get($map: $mapa-colores, $key: color-negro-alpha2);
                 }
     }
 }

@@ -1,12 +1,12 @@
 body{
 .main{
     .formularioContacto {
-        background-color: $color-negro-alpha2;
+        background-color: map-get($map: $mapa-colores, $key: color-negro-alpha2);
         border-radius: 5px;
     }
 
     .seccionTrabajo {
-        border-top: 2px solid $color-gris-oscuro;
+        border-top: 2px solid map-get($map: $mapa-colores, $key: color-gris-oscuro);
     }
 }
 

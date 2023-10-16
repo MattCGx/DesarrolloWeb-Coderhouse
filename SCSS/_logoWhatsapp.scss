@@ -6,7 +6,7 @@ body{
 
         .logoWhatsapp {
             width: 90px;
-            background-color: $color-fondo-gris;
+            background-color: map-get($map: $mapa-colores, $key: color-fondo-gris);
             padding: 9px;
             border-radius: 18px;
         }

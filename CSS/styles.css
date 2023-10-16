@@ -1,3 +1,5 @@
+/* Fonts*/
+/*colores*/
 /* Resets*/
 * {
   margin: 0;
@@ -23,6 +25,9 @@ body {
 body .main {
   background-color: #d09b71;
   font-family: "gudea-regular", Courier, monospace;
+}
+body .main .fontTitulo {
+  font-family: "montserrat";
 }
 
 body .header {
@@ -82,7 +87,7 @@ body .header .gudeaNav .navbar-nav .nav-item .active {
 
 body .footer {
   background-color: #212121;
-  color: beige;
+  color: #beada3;
   font-family: "gudea-regular", Courier, monospace;
 }
 body .footer .footerRedes .contenedorRedes .logoRedes {
