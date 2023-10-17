@@ -1,8 +1,7 @@
 body {
     .footer {
-        background-color: map-get($map: $mapa-colores, $key: color-gris-oscuro );
-        ;
-        color: map-get($map: $mapa-colores, $key: color-font-nav );
+        background-color: map-get($map: $mapa-colores, $key: color-gris-oscuro);
+        color: map-get($map: $mapa-colores, $key: color-font-nav);
         font-family: 'gudea-regular', Courier, monospace;
 
         .footerRedes {
@@ -14,7 +13,7 @@ body {
         }
 
         .footerCopyright {
-            border-top: 2px solid map-get($map: $mapa-colores, $key: color-principal-body);;
+            border-top: 2px solid map-get($map: $mapa-colores, $key: color-principal-body);
             border-radius: 7px;
 
         }
@@ -26,8 +25,8 @@ body {
         .footer {
             .footerRedes {
                 .contenedorRedes {
-                    display: flex;
-                    flex-direction: row;
+
+                    @include contenedorFlex(row, center);
 
                     .logoRedes {
                         width: 50px;
