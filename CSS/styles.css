@@ -47,7 +47,7 @@ body .header .gudeaNav .logo {
   padding-top: 0px;
 }
 body .header .gudeaNav .navbar-toggler-icon {
-  background-image: url("../Assets/icons/d20.png");
+  background-image: url("../Assets/icons/d20nav.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 40px;
@@ -62,7 +62,6 @@ body .header .gudeaNav .navbar-nav .nav-item .nav-link {
   border-radius: 5px;
 }
 body .header .gudeaNav .navbar-nav .nav-item .active {
-  /* color: #833321; */
   color: #d09b71;
 }
 @media screen and (min-width: 768px) {

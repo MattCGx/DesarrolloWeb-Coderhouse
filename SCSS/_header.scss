@@ -19,7 +19,7 @@ body {
             }
 
             .navbar-toggler-icon {
-                background-image: url('../Assets/icons/d20.png');
+                background-image: url('../Assets/icons/d20nav.svg');
                 background-size: contain;
                 background-repeat: no-repeat;
                 width: 40px;
@@ -38,7 +38,6 @@ body {
                         border-radius: 5px;
                     }
                     .active {
-                        /* color: #833321; */
                         color: map-get($map: $mapa-colores, $key: color-principal-body);
                     }
                 }
@@ -47,8 +46,6 @@ body {
     }
 
     @media screen and (min-width: 768px) {
-
-
 
         .gudeaNav {
             font-size: 2rem;
