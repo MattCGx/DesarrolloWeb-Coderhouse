@@ -126,9 +126,6 @@ body .header .gudeaNav .navbar-toggler:active {
 }
 
 body .footer {
-  display: flex;
-  flex-direction: column;
-  bottom: 0;
   background-color: #212121;
   color: #beada3;
   font-family: "gudea-regular", Courier, monospace;
