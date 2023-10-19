@@ -1,7 +1,7 @@
 body {
     .header {
-        background-color: map-get($map: $mapa-colores, $key:color-gris-oscuro );
-        border-bottom: 2px solid map-get($map: $mapa-colores, $key:color-principal-body);
+        background-color: map-get($map: $mapa-colores, $key: color-gris-oscuro);
+        border-bottom: 2px solid map-get($map: $mapa-colores, $key: color-principal-body);
         border-bottom-right-radius: 7px;
         border-bottom-left-radius: 7px;
 
@@ -31,19 +31,73 @@ body {
             .navbar-nav {
                 .nav-item {
                     .nav-link {
-                        color: map-get($map: $mapa-colores, $key: color-font-nav );
+                        color: map-get($map: $mapa-colores, $key: color-font-nav);
                         padding: 5px 5px;
                         margin-top: 5px;
                         margin-bottom: 5px;
                         border-radius: 5px;
                     }
+
                     .active {
                         color: map-get($map: $mapa-colores, $key: color-principal-body);
                     }
                 }
             }
+
+
+            .navbar-toggler:active {
+                animation: shake 1s;
+            }
+
+            @keyframes shake {
+                0% {
+                    transform: translateX(0);
+                }
+
+                10% {
+                    transform: translateX(-5px);
+                }
+
+                20% {
+                    transform: translateX(5px);
+                }
+
+                30% {
+                    transform: translateX(-5px);
+                }
+
+                40% {
+                    transform: translateX(5px);
+                }
+
+                50% {
+                    transform: translateX(-5px);
+                }
+
+                60% {
+                    transform: translateX(5px);
+                }
+
+                70% {
+                    transform: translateX(-5px);
+                }
+
+                80% {
+                    transform: translateX(5px);
+                }
+
+                90% {
+                    transform: translateX(-5px);
+                }
+
+                100% {
+                    transform: translateX(0);
+                }
+            }
         }
     }
+
+
 
     @media screen and (min-width: 768px) {
 
@@ -58,14 +112,19 @@ body {
             .navbar-nav {
                 .nav-link {
                     padding: 10px 20px;
-                    background-color: map-get($map: $mapa-colores, $key:color-fondo-gris);
+                    background-color: map-get($map: $mapa-colores, $key: color-fondo-gris);
                     border-radius: 5px;
                     margin-right: 10px;
                     margin-top: 0px;
                     margin-bottom: 0px;
                 }
+
+                .nav-link:hover {
+                    box-shadow: 2px 2px 5px map-get($map: $mapa-colores, $key: color-texto);
+                }
+
                 .active {
-                    background-color: map-get($map: $mapa-colores, $key:color-nav-active);
+                    background-color: map-get($map: $mapa-colores, $key: color-nav-active);
                 }
             }
         }

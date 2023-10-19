@@ -10,5 +10,9 @@ body{
             padding: 9px;
             border-radius: 18px;
         }
+        .logoWhatsapp:hover {
+            box-shadow: 2px 2px 5px map-get($map: $mapa-colores, $key: color-texto);
+            background-color:map-get($map: $mapa-colores, $key: color-whatsapp);
+        }
     }
 }

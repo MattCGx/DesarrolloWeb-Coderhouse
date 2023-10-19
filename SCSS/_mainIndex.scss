@@ -1,15 +1,16 @@
 body {
 
-    .main{
+    .main {
         .bloqueTextoFrontpage {
             background-color: map-get($map: $mapa-colores, $key: color-negro-alpha);
         }
 
         .mapaGoogle {
-            @include contenedorFlex(column,center);
+            @include contenedorFlex(column, center);
             flex-wrap: wrap;
             align-items: center;
-            .mapaIframe{
+
+            .mapaIframe {
                 width: 75%;
                 height: 300px;
             }
