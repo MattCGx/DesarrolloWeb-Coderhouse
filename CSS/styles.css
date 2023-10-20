@@ -29,6 +29,9 @@ body .main {
 body .main .fontTitulo {
   font-family: "montserrat";
 }
+body .main .bold {
+  font-weight: bold;
+}
 
 body .header {
   background-color: #212121;
