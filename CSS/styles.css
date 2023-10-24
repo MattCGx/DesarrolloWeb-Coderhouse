@@ -68,7 +68,7 @@ body .header .gudeaNav .navbar-nav .nav-item .active {
   color: #d09b71;
 }
 body .header .gudeaNav .navbar-toggler:active {
-  animation: shake 1s;
+  animation: shake 0.5s;
 }
 @keyframes shake {
   0% {
