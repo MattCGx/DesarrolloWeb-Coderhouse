@@ -176,6 +176,16 @@ body .main .mapaGoogle .mapaIframe {
   body .main .carousel-item .textoSlide {
     font-size: calc(1.3rem + 0.6vw);
   }
+  body .main .bloqueTextoFrontpage {
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  body .main .mapaIframe {
+    filter: sepia(0.7);
+  }
+  body .main .mapaIframe:hover {
+    filter: none;
+  }
 }
 
 body .main .seccionMenu .tituloMenu {
