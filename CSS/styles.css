@@ -169,7 +169,7 @@ body .main .mapaGoogle .mapaIframe {
 }
 @media screen and (min-width: 768px) {
   body .main .carousel-item {
-    max-height: 80vh;
+    max-height: 84vh;
   }
   body .main .carousel-item .fontTitulo {
     font-size: calc(1.375rem + 1.5vw);
