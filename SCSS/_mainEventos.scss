@@ -13,6 +13,9 @@ body {
                 }
             }
         }
+        .card:hover {
+            box-shadow: 2px 2px 5px map-get($map: $mapa-colores, $key: color-texto);
+        }
     }
 
     @media screen and (max-width: 767px) {

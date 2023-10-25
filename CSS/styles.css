@@ -132,6 +132,7 @@ body .footer {
   background-color: #212121;
   color: #beada3;
   font-family: "gudea-regular", Courier, monospace;
+  bottom: 0;
 }
 body .footer .footerRedes .contenedorRedes .logoRedes {
   width: 40px;
@@ -167,7 +168,7 @@ body .main .mapaGoogle .mapaIframe {
 }
 @media screen and (min-width: 768px) {
   body .main .carousel-item {
-    max-height: 75vh;
+    max-height: 80vh;
   }
   body .main .carousel-item .fontTitulo {
     font-size: calc(1.375rem + 1.5vw);
@@ -196,6 +197,9 @@ body .main .card .btn-secondary {
 body .main .card .btn-secondary .botonInsc {
   text-decoration: none;
   color: #212121;
+}
+body .main .card:hover {
+  box-shadow: 2px 2px 5px #000000;
 }
 @media screen and (max-width: 767px) {
   body .cardInvertida {
