@@ -18,6 +18,11 @@
     src: url('../Assets/fonts/Montserrat-VariableFont_wght.ttf');
 }
 
+@font-face {
+    font-family: 'kelmscot';
+    src: url('../Assets/fonts/KELMSCOT.TTF');
+}
+
 
 /*Generalidades Body*/
 body {
@@ -25,10 +30,14 @@ body {
     font-family: $font-principal;
     color: map-get($map: $mapa-colores, $key: color-texto);
     .main {
+        overflow-x: hidden;
         background-color: map-get($map: $mapa-colores, $key: color-principal-body);
         font-family: $font-principal , Courier, monospace;
         .fontTitulo {
             font-family: $font-titulos;
+        }
+        .fontTituloSec{
+            font-family: $font-titulos-sec;
         }
         .bold {
             font-weight: bold;

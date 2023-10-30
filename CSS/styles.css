@@ -16,6 +16,10 @@
   font-family: "montserrat";
   src: url("../Assets/fonts/Montserrat-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family: "kelmscot";
+  src: url("../Assets/fonts/KELMSCOT.TTF");
+}
 /*Generalidades Body*/
 body {
   background-color: #d09b71;
@@ -23,10 +27,14 @@ body {
   color: #000000;
 }
 body .main {
+  overflow-x: hidden;
   background-color: #d09b71;
   font-family: "gudea-regular", Courier, monospace;
 }
 body .main .fontTitulo {
+  font-family: "kelmscot";
+}
+body .main .fontTituloSec {
   font-family: "montserrat";
 }
 body .main .bold {
