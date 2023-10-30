@@ -247,7 +247,36 @@ body .main .contenedorVideo {
 
 body .main .formularioContacto {
   background-color: rgba(33, 33, 33, 0.6784313725);
-  border-radius: 5px;
+  box-shadow: 2px 2px 5px #000000;
+}
+body .main .formularioContacto .input-group-text {
+  background-color: #d09b71;
+}
+body .main .formularioContacto .btn-outline-primary {
+  color: #d09b71;
+  border-color: #d09b71;
+}
+body .main .formularioContacto .btn-outline-primary:hover {
+  color: #000000;
+  background-color: #d09b71;
+  border-color: #000000;
+}
+body .main .formularioContacto .btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(33, 33, 33, 0.6784313725);
+}
+body .main .formularioContacto .form-control:focus {
+  border-color: #d09b71;
+  box-shadow: 0 0 0 0.25rem rgba(33, 33, 33, 0.6784313725);
+}
+body .main .formularioContacto .form-select:focus {
+  border-color: #d09b71;
+  box-shadow: 0 0 0 0.25rem rgba(33, 33, 33, 0.6784313725);
+}
+body .main .formularioContacto .form-label {
+  background-color: #d09b71;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 0.3rem;
 }
 body .main .seccionTrabajo {
   border-top: 2px solid #212121;

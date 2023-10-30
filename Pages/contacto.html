@@ -67,8 +67,10 @@
             de encanto medieval y
             emocionantes juegos de rol. Para garantizar que tu experiencia sea tan mágica como la esperas, te ofrecemos
             la
-            oportunidad de <span class="bold">reservar</span> tu mesa con anticipación. Ya sea que desees asegurarte un lugar en una de nuestras
-            emocionantes noches de <span class="bold">juego de rol</span> o simplemente desees disfrutar de una cena en un ambiente medieval
+            oportunidad de <span class="bold">reservar</span> tu mesa con anticipación. Ya sea que desees asegurarte un
+            lugar en una de nuestras
+            emocionantes noches de <span class="bold">juego de rol</span> o simplemente desees disfrutar de una cena en
+            un ambiente medieval
             único,
             nuestra amable posadera estará encantada de ayudarte a planificar tu visita. ¡Prepárate para sumergirte en
             la
@@ -77,33 +79,54 @@
             la fantasía!</p>
         </div>
 
-        <div class="formularioContacto col-lg-3 mt-3 mb-3 pt-3 pb-3 animate__animated animate__zoomIn">
-          
-          <!-- cambiar por form de BS para mejorar al visual-->
-          <form class="formulario" action="404.html">
-            <div>
-              <label id="FormName" for="NombreInput">Nombre</label>
-              <input type="text" name="NombreInput" placeholder="Ingresa Tu nombre" required />
+        <div class="formularioContacto col-lg-3 mt-3 mb-3 pt-3 pb-3" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
+
+
+          <form class="row row-cols-lg-auto g-3 align-items-center" action="404.html">
+            <div class="col-12">
+              <label class="visually-hidden" for="inlineFormInputGroupUsername">Nombre</label>
+              <div class="input-group">
+                <div class="input-group-text">Nombre y Apellido</div>
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Frodo Bolsón"
+                  required>
+              </div>
             </div>
-            <div>
-              <label id="FormPhone" for="phoneInput">Telefono</label>
-              <input type="number" name="phoneInput" placeholder="11-12345678" required />
+            <div class="col-12">
+              <label class="visually-hidden" for="inlineFormInputGroupPhone">Telefono</label>
+              <div class="input-group">
+                <div class="input-group-text">Telefono</div>
+                <input type="number" class="form-control" id="inlineFormInputGroupPhone" placeholder="01112345678"
+                  required>
+              </div>
             </div>
-            <div>
-              <label id="FormMessage" for="messageInput">Detalles de tu reserva!</label>
+
+            <div class="col-12">
+              <label class="visually-hidden" for="inlineFormSelectPref">Cantidad de Personas</label>
+              <select class="form-select" id="inlineFormSelectPref">
+                <option selected>Cantidad de personas</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">+4 aclarar en reserva</option>
+              </select>
             </div>
-            <div>
-              <textarea name="mensaje" id="mensaje" cols="30" rows="7"
-                placeholder="Dejanos detalles como cantidad de personas, tipo de campaña que prefieres y la fecha de la misma"></textarea>
+
+            <div class="col-12">
+              <label for="areamensaje" class="visually-hidden">Detalles de Tu reserva</label>
+              <textarea class="form-control" id="areamensaje" rows="3"
+                placeholder="Déjanos aquí todos los detalles de tu reserva"></textarea>
             </div>
-            <div>
-              <input type="submit" id="enviar" name="enviar" value="Enviar respuesta" />
-              <input type="reset" id="reset" name="reset" value="Borrar todo" />
+
+            <div class="btn-group col-6">
+              <input type="submit" class="btn btn-outline-primary"></input>
+              <input type="reset" class="btn btn-outline-primary"></input>
             </div>
           </form>
+
         </div>
       </div>
-    </section class="seccionReserva">
+    </section>
 
 
     <section class="container-fluid row seccionTrabajo pb-5 pt-5">
@@ -118,35 +141,48 @@
           con habilidades de servicio excepcionales, o incluso si simplemente amas el encanto de la era medieval, te
           invitamos a considerar trabajar con nosotros. En la Taberna de Bree, no solo encontrarás un lugar de trabajo,
           sino una comunidad apasionada que valora la imaginación y la camaradería. Si deseas embarcarte en esta
-          emocionante aventura laboral y <span class="bold">ser parte de nuestro equipo</span>, ¡estamos esperando ansiosos tu solicitud!
+          emocionante aventura laboral y <span class="bold">ser parte de nuestro equipo</span>, ¡estamos esperando
+          ansiosos tu solicitud!
           ¡Prepárate
           para unirte a nuestra caravana y hacer que cada día en la Taberna de Bree sea una experiencia épica!</p>
       </div>
 
-      <div class="formularioContacto col-lg-3 mt-3 mb-3 pt-3 pb-3 animate__animated animate__zoomIn">
-        <form class="formulario" action="404.html" method="post">
-          <div>
-            <label id="FormName2" for="NombreInput">Nombre</label>
-            <input type="text" name="NombreInput" placeholder="Ingresa Tu nombre" required />
+      <div class="formularioContacto col-lg-3 mt-3 mb-3 pt-3 pb-3" data-aos="flip-left" data-aos-delay="300" data-aos-easing="ease-in-out">
+
+        <form class="row row-cols-lg-auto g-3 align-items-center" action="404.html">
+          <div class="col-12">
+            <label class="visually-hidden" for="inlineFormInputGroupUsername">Nombre</label>
+            <div class="input-group">
+              <div class="input-group-text">Nombre y Apellido</div>
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Frodo Bolsón"
+                required>
+            </div>
           </div>
-          <div>
-            <label id="FormEmail" for="emailInput">Correo Electronico</label>
-            <input type="email" name="emailInput" placeholder="ejemplo@correo.com" required />
+          <div class="col-12">
+            <label class="visually-hidden" for="inlineFormInputGroupMail">E-mail</label>
+            <div class="input-group">
+              <div class="input-group-text">E-mail</div>
+              <input type="email" class="form-control" id="inlineFormInputGroupMail" placeholder="gandalf@elgris.com.ar"
+                required>
+            </div>
           </div>
-          <div>
-            <label for="archivo">Adjunta Tu CV:</label>
+
+
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Envianos tu CV</label>
+              <input class="form-control" type="file" id="formFile" accept=".pdf, .doc, .docx, .jpg, .png" required>
+            </div>
           </div>
-          <div>
-            <input type="file" name="archivo" id="archivo" placeholder="selecciona un archivo"
-              accept=".pdf, .doc, .docx, .jpg, .png" required />
-          </div>
-          <div>
-            <input type="submit" id="enviar" name="enviar" value="Enviar respuesta" />
-            <input type="reset" id="reset" name="reset" value="Borrar todo" />
+
+          <div class="btn-group col-6">
+            <input type="submit" class="btn btn-outline-primary"></input>
+            <input type="reset" class="btn btn-outline-primary"></input>
           </div>
         </form>
+
       </div>
-      </div>
+
 
     </section>
 
@@ -183,7 +219,7 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
-    </script>
+  </script>
   <script src="../JS/bootstrap.bundle.min.js"></script>
 </body>
 
