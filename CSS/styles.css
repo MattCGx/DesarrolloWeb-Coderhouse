@@ -202,6 +202,7 @@ body .main .seccionMenu .tituloMenu {
 }
 body .main .seccionMenu .card-group .card {
   border-radius: 25px;
+  width: 70%;
 }
 body .main .seccionMenu .card-group .card .card-img-top {
   border-radius: 25px;
