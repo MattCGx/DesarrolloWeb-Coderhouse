@@ -9,6 +9,9 @@ body{
                     justify-content: center;
                     align-items: center;
                     padding: 0px;
+                    .videoYT{
+                        box-shadow: 2px 2px 5px map-get($map: $mapa-colores, $key: color-texto);
+                    }
                 }
     }
 }

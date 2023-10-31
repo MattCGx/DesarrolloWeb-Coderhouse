@@ -4,6 +4,7 @@ body {
 
         .bloqueTextoFrontpage {
             background-color: map-get($map: $mapa-colores, $key: color-negro-alpha);
+            box-shadow: 2px 2px 5px map-get($map: $mapa-colores, $key: color-texto);
         }
 
         .mapaGoogle {
@@ -14,6 +15,8 @@ body {
             .mapaIframe {
                 width: 75%;
                 height: 300px;
+                box-shadow: 2px 2px 5px map-get($map: $mapa-colores, $key: color-texto);
+                border-radius: 17px;
             }
         }
     }

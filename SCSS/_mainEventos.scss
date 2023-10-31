@@ -3,7 +3,7 @@ body {
     .main {
         .card {
             background-color: map-get($map: $mapa-colores, $key: color-negro-alpha2);
-
+            box-shadow: 2px 2px 5px map-get($map: $mapa-colores, $key: color-texto);
             .btn-secondary {
                 background-color: map-get($map: $mapa-colores, $key: color-font-nav);
 
@@ -14,7 +14,7 @@ body {
             }
         }
         .card:hover {
-            box-shadow: 2px 2px 5px map-get($map: $mapa-colores, $key: color-texto);
+            box-shadow: 3px 3px 7px #fff;
         }
     }
 
