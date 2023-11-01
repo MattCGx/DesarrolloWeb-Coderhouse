@@ -304,4 +304,9 @@ body .sectionLogoWhatsapp .logoWhatsapp:hover {
   background-color: #075E54;
 }
 
+body .main .contenedor404 {
+  background-color: rgba(33, 33, 33, 0.6784313725);
+  box-shadow: 2px 2px 5px #000000;
+}
+
 /*# sourceMappingURL=styles.css.map */
