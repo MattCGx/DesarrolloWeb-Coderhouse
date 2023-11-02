@@ -216,6 +216,9 @@ body .main .mapaGoogle .mapaIframe {
 body .main .seccionMenu .tituloMenu {
   background-color: rgba(33, 33, 33, 0.6784313725);
 }
+body .main .seccionMenu .tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
 body .main .seccionMenu .card-group .card {
   border-radius: 25px;
 }
@@ -230,7 +233,24 @@ body .main .seccionMenu .card-group .card .card-body .card-text .text-muted {
   border-radius: 7px;
   background-color: #d09b71;
 }
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
 
+body .main .tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
 body .main .card {
   background-color: rgba(33, 33, 33, 0.6784313725);
   box-shadow: 2px 2px 5px #000000;
@@ -245,6 +265,20 @@ body .main .card .btn-secondary .botonInsc {
 body .main .card:hover {
   box-shadow: 3px 3px 7px #fff;
 }
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 767px) {
   body .cardInvertida {
     display: none;
@@ -253,6 +287,23 @@ body .main .card:hover {
 
 body .main .subtituloyBanner {
   background-color: rgba(33, 33, 33, 0.6784313725);
+}
+body .main .subtituloyBanner .tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
 }
 body .main .contenedorVideo {
   display: flex;
@@ -265,6 +316,9 @@ body .main .contenedorVideo .videoYT {
   box-shadow: 2px 2px 5px #000000;
 }
 
+body .main .tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
 body .main .formularioContacto {
   background-color: rgba(33, 33, 33, 0.6784313725);
   box-shadow: 2px 2px 5px #000000;
@@ -300,6 +354,23 @@ body .main .formularioContacto .form-label {
 }
 body .main .seccionTrabajo {
   border-top: 2px solid #212121;
+}
+body .main .seccionTrabajo .tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
 }
 
 body .sectionLogoWhatsapp {
