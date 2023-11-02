@@ -1,9 +1,6 @@
 body {
     .main {
 
-        .tracking-in-contract-bck {
-            animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-        }
 
         .formularioContacto {
             background-color: map-get($map: $mapa-colores, $key: color-negro-alpha2);
@@ -51,25 +48,10 @@ body {
 
         .seccionTrabajo {
             border-top: 2px solid map-get($map: $mapa-colores, $key: color-gris-oscuro);
-            .tracking-in-contract-bck {
-                animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-            }
+        
         }
 
-        @keyframes tracking-in-contract-bck {
-            0% {
-              letter-spacing: 1em;
-              transform: translateZ(400px);
-              opacity: 0;
-            }
-            40% {
-              opacity: 0.6;
-            }
-            100% {
-              transform: translateZ(0);
-              opacity: 1;
-            }
-          }
+    
     }
 
 }
