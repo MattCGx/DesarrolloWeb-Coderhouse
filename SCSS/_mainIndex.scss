@@ -2,6 +2,10 @@ body {
 
     .main {
 
+        .kenburns-top {
+            animation: kenburns-top 5s ease-out both;
+        }
+
         .bloqueTextoFrontpage {
             background-color: map-get($map: $mapa-colores, $key: color-negro-alpha);
             box-shadow: 2px 2px 5px map-get($map: $mapa-colores, $key: color-texto);
@@ -19,6 +23,18 @@ body {
                 border-radius: 17px;
             }
         }
+
+        @keyframes kenburns-top {
+            0% {
+              transform: scale(1) translateY(0);
+              transform-origin: 50% 16%;
+            }
+            100% {
+              transform: scale(1.25) translateY(-15px);
+              transform-origin: top;
+            }
+          }
+          
     }
 
     @media screen and (min-width: 768px) {
